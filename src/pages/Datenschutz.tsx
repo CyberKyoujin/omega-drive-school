@@ -152,7 +152,7 @@ const Datenschutz = () => {
             <section>
               <h2 className="text-xl font-semibold mb-3">10. Aktualität</h2>
               <p className="text-muted-foreground">
-                Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Januar 2025.
+                Diese Datenschutzerklärung ist aktuell gültig und hat den Stand Januar 2026.
               </p>
             </section>
           </CardContent>

@@ -26,7 +26,8 @@ const Impressum = () => {
               <h2 className="text-xl font-semibold mb-3">Kontakt</h2>
               <p className="text-muted-foreground">
                 Telefon: 0176 24137205<br />
-                E-Mail: info@fahrschule-omega.de
+                E-Mail: info@fahrschule-omega.de<br/>
+                Steueridentifikationsnummer: 66/037/17135
               </p>
             </section>
 

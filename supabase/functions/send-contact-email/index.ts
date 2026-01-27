@@ -46,8 +46,8 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send notification email to Fahrschule
     const notificationEmail = await resend.emails.send({
-      from: "Fahrschule OMEGA <onboarding@resend.dev>",
-      to: ["novakovdenis11@gmail.com"], // Replace with actual email
+      from: "Fahrschule OMEGA <info@fahrschule-omega.de>",
+      to: ["fahrschule.omega1@gmail.com"], // Replace with actual email
       subject: `Neue Anfrage von ${name} - Fahrschule OMEGA`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
@@ -75,7 +75,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send confirmation email to customer
     const confirmationEmail = await resend.emails.send({
-      from: "Fahrschule OMEGA <onboarding@resend.dev>",
+      from: "Fahrschule OMEGA <info@fahrschule-omega.de>",
       to: [email],
       subject: "Vielen Dank für Ihre Anfrage - Fahrschule OMEGA",
       html: `
